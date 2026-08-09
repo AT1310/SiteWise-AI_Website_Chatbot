@@ -1,0 +1,40 @@
+# ── LangChain core ────────────────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-groq
+
+# ── LLM ───────────────────────────────────────────────────────────────────────
+# Gemini via langchain-google-genai (openai / langchain-openai not used)
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+sentence-transformers
+
+# ── Vector store ──────────────────────────────────────────────────────────────
+chromadb
+
+# ── Document loaders (via unstructured) ───────────────────────────────────────
+unstructured[all-docs]
+pymupdf          # PyMuPDFLoader  — PDF
+python-docx      # DOCX
+python-pptx      # PPTX
+openpyxl         # XLSX
+xlrd             # XLS
+
+# ── HTML / text parsing ───────────────────────────────────────────────────────
+beautifulsoup4
+lxml
+
+# ── HTTP / crawling ───────────────────────────────────────────────────────────
+requests
+tenacity
+
+# ── API framework ─────────────────────────────────────────────────────────────
+pydantic
+pydantic-settings
+fastapi
+uvicorn
+
+# ── Config ────────────────────────────────────────────────────────────────────
+python-dotenv
